@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.18.3 -->
+<interface>
+  <requires lib="gtk+" version="3.12"/>
+  <object class="GtkWindow" id="window_main">
+    <property name="width_request">504</property>
+    <property name="height_request">356</property>
+    <property name="can_focus">False</property>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkImage" id="img_mt16">
+            <property name="width_request">504</property>
+            <property name="height_request">356</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">MT16.png</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkProgressBar" id="prg_bar_mt16">
+            <property name="width_request">240</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="x">135</property>
+            <property name="y">247</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_filechooser">
+            <property name="label" translatable="yes">Choose File</property>
+            <property name="width_request">202</property>
+            <property name="height_request">50</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_filechooser_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">152</property>
+            <property name="y">130</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
