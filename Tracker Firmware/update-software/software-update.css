@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background:#FFF;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#293032;
+	width:100%;
+	height:100%;
+}
+p {
+	font-size:18px;
+	line-height:21px;
+	font-weight:400;
+	margin:5px 0;
+	padding:0;
+}
+h2 {
+	font-weight:700;
+	font-style:italic;
+	font-size:25px;
+	line-height:27px;
+	margin:10px 0 0 0;
+	padding:0;
+}
+a{
+	color: #4187C8;
+	text-decoration: none;	
+}
+a:hover{
+	color: #EA782A;
+}
+/* == Colors == */
+.blue {
+	color: #4187c8;
+}
+.green {
+	color: #72c147;
+}
+.yellow {
+	color: #fcb33a;
+}
+.orange {
+	color: #ea782a;
+}
+.red {
+	color: #ea442a;
+}
+.violet {
+	color:#9B679A;
+}
+.gray {
+	color: #bbbcbf;
+}
+.white {
+	color: #ffffff;	
+}
+/* == Button link box == */
+a.btn-link {
+	background:#4187C8;
+	color:#FFFFFF;
+	font-style:italic;
+	font-size:15px;
+	font-weight:700;
+	text-align:center;
+	margin:10px 0 0 0;
+	padding:10px 0;
+	display:block;
+	width:100%;
+	border:1px solid #4187C8;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+}
+a.btn-link:hover {
+	background:#FFFFFF;
+	color:#4187C8;
+}
+#wrapper {
+	width:100%;
+	float:left;
+	margin:0;
+	padding:0;
+}
+#header {
+	width:100%;
+	float:left;
+	margin:0 0 20px 0;
+}
+#header img {
+	float:left;
+	margin:0 20px 0 0;
+	padding:0;
+}
+#container {
+	width:700px;
+	margin:0 auto 50px auto;
+}
+#container h2 {
+	font-size:30px !important; 
+}
+#container h5 {
+	font-weight:400 !important;
+	font-style:italic !important;
+	font-size:20px !important;
+	margin:5px 0;
+	padding:0;
+}
+#container p {
+	font-size:16px !important;
+}
+#container hr {
+	margin:15px 0 !important;
+}
+.plug-in {
+	margin:0;
+}
+.input-area {
+	width:350px;
+	float:left;
+	padding:20px 0;
+}
+.input-area input {
+	width:250px;
+	float:left;
+	height:35px;
+	border:1px solid #293032;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+}
+.input-title {
+	width:100%;
+	float:left;
+	font-style:italic;
+	font-weight:700;
+	color:#bbbcbf;
+	margin:5px 0 0 0;
+}
+input[type="submit"] {
+	width:90px;
+	height:35px;
+	background:#4187c8;
+	color:#fff;
+	font-style:italic;
+	font-size:18px;
+	border:1px solid #4187c8;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+}
+input[type="submit"]:hover {
+	background:#fff;
+	color:#4187c8;
+}
+.progress-bar {
+	margin:50px 0;
+}

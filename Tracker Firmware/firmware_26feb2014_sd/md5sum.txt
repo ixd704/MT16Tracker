@@ -1,0 +1,5 @@
+874221964af67ea17bc43aab58404b2d  flashcp
+0c6c7925b828044f949343f4dd7d9162  rootfs.cramfs
+26fc4880d0661403c0bbaa88db51f980  u-boot.bin
+c09b5f5e46d24bb24965ac6aadc749a4  uImage
+fb2b7c356cd7187f4ddeb7d500afbc4d  upgrade.sh
