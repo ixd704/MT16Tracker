@@ -49,9 +49,9 @@ static float percent = 0.0;
 char *filename;
 
 GtkProgressBar *g_prg_bar_mt16;
-GtkWidget *g_btn_filechooser;
-GtkWidget *window;
-int running = 0;
+GtkWindow *g_btn_filechooser;
+GtkWindow *window;
+//int running = 0;
 
 int main(int argc, char *argv[])
 {
@@ -101,12 +101,22 @@ void on_window_main_destroy() {
 
 int on_btn_filechooser_clicked() {
 	//gtk_label_set_text(GTK_LABEL(g_btn_filechooser), "Select a MT16 File!");
-	GtkWidget *dialog;
+	GtkWidget *dialog;GtkFileFilter * ff, * ffa;
+
 
 	GtkFileChooserAction action = GTK_FILE_CHOOSER_ACTION_OPEN;
 	gint res;
 
 	dialog = gtk_file_chooser_dialog_new ("Open File",window,action,"Cancel",GTK_RESPONSE_CANCEL,"Open",GTK_RESPONSE_ACCEPT,NULL);
+ff = gtk_file_filter_new();
+  gtk_file_filter_set_name(ff,"Audio");
+  gtk_file_filter_add_mime_type(ff,"audio/x-wav");
+  gtk_file_chooser_add_filter(GTK_FILE_CHOOSER(dialog),ff);
+  
+  ffa = gtk_file_filter_new();
+  gtk_file_filter_set_name(ffa,"all");
+  gtk_file_filter_add_pattern(ffa,"*");
+  gtk_file_chooser_add_filter(GTK_FILE_CHOOSER(dialog),ffa);
 
 	res = gtk_dialog_run (GTK_DIALOG (dialog));
 	if (res == GTK_RESPONSE_ACCEPT)
@@ -130,7 +140,6 @@ gboolean inc_progress() {
 		gtk_progress_bar_set_fraction( g_prg_bar_mt16, percent);
 	}
 	return TRUE;
-
 }
 
 void* waitloop(void * arg) {
@@ -238,14 +247,16 @@ int runit (char *thefile) {
 	cptr [0] = 0 ;
 	} ;
 
+	// If the user created a mapping (.map) file for file naming, load it and replace defaults.
 	char mapfile[250];
 	snprintf (mapfile, sizeof (mapfile), "%s.map", pathname);
+
 	FILE *map;
 
 	map = fopen(mapfile,"r");
 	if (map==NULL)
 	{
-		printf("No map file \n");
+		printf("Map file : Not using\n");
 	} else
 	{
 		for (int x = 0; x < MAX_CHANNELS; x++)
