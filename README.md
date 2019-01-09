@@ -11,4 +11,6 @@ To date I have:
 
 You will require sndlib and GTK3 to be installed on Linux to compile the code.   Anyone wishing to contribute can join the effort.
 
-I was trying to upload a sample test file, but with the 100MB limit on file size, it is not really possible to do.
+Some info on the MT16Tracker:
+- it runs a telnet server with the user account being set to user and the password also set to user.
+- if you unzip the ROM to a directory called update on the sd card, it will load the firmware on boot.
