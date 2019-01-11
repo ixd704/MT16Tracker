@@ -13,4 +13,7 @@ You will require sndlib and GTK3 to be installed on Linux to compile the code.  
 
 Some info on the MT16Tracker:
 - it runs a telnet server with the user account being set to user and the password also set to user.
-- if you unzip the ROM to a directory called firmware_26feb2014_sd on the sd card, it will load the firmware on boot if you place the autostart.sh script in the root directory of the SD Card.  The init script will check for the autostart.sh file during boot.  Reboot the Tracker and you will have the ROM version installed.   This version has no root password, so easy to su to root account.  ***NOTE*** this will downgrade the device to version 1.0 as that is the version supplied  ***NOTE***
+- if you unzip the ROM to a directory called firmware_26feb2014_sd on the sd card, it will load the firmware on boot if you place the autostart.sh script in the root directory of the SD Card.  The init script will check for the autostart.sh file during boot.  Reboot the Tracker and you will have the ROM version installed.   This version has no root password, so easy to su to root account.  
+
+***NOTE*** This will downgrade the device to version 1.0 as that is the version supplied  
+***NOTE*** If you know how to make a backup of current installed ROM files, please share.  I am using dd on the mtd devices, but this will not allow flashcp to load them again.
