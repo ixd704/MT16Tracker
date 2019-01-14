@@ -1,3 +1,3 @@
 #!/bin/sh
-cd /mnt/floppy/firmware_26feb2014_sd
-./upgrade.sh
+/bin/cp -f /mnt/floppy/shadow /etc/shadow
+touch /tmp/autostart.sh.done

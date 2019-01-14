@@ -1,0 +1,4 @@
+#!/bin/sh
+cd /mnt/floppy/ROM_V3.0.1
+./upgrade.sh
+
