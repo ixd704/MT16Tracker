@@ -1,0 +1,11 @@
+--------------------------------------JAMHUB Tracker MT16------------------------------------------------------------
+Software requirements:-
+--> Bandsplitter 3.3
+
+
+Release3 - BandLabSplitterVer3
+New features addd:-
+1) New BND file support added
+2) Deleting extra generated files
+
+----------------------------------------------------------------------------------------------------------------------

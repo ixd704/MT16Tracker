@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5200E23C1A7128400018AEB8 /* lame in Resources */ = {isa = PBXBuildFile; fileRef = 5200E23B1A7128400018AEB8 /* lame */; };
+		529598E01A72778C003FBA8B /* snd_new in Resources */ = {isa = PBXBuildFile; fileRef = 529598DF1A72778C003FBA8B /* snd_new */; };
+		529CD7681A9C59F2008B5047 /* New Bandlab Icon 16.png in Resources */ = {isa = PBXBuildFile; fileRef = 529CD7671A9C59F2008B5047 /* New Bandlab Icon 16.png */; };
+		529CD76A1A9C5AB4008B5047 /* New Bandlab Icon 32.png in Resources */ = {isa = PBXBuildFile; fileRef = 529CD7691A9C5AB4008B5047 /* New Bandlab Icon 32.png */; };
+		52A69EFC1A0A54D3005B22B1 /* mydeinterleave in Resources */ = {isa = PBXBuildFile; fileRef = 52A69EFB1A0A54D3005B22B1 /* mydeinterleave */; };
+		52C152141A08CBEF0076A8C0 /* sox in Resources */ = {isa = PBXBuildFile; fileRef = 52C152131A08CBEF0076A8C0 /* sox */; };
+		DC1E247418E7CF1800F32B3E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1E247318E7CF1800F32B3E /* Cocoa.framework */; };
+		DC1E247E18E7CF1800F32B3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC1E247C18E7CF1800F32B3E /* InfoPlist.strings */; };
+		DC1E248018E7CF1800F32B3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1E247F18E7CF1800F32B3E /* main.m */; };
+		DC1E248418E7CF1800F32B3E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DC1E248218E7CF1800F32B3E /* Credits.rtf */; };
+		DC1E248718E7CF1800F32B3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1E248618E7CF1800F32B3E /* AppDelegate.m */; };
+		DC1E248A18E7CF1800F32B3E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC1E248818E7CF1800F32B3E /* MainMenu.xib */; };
+		DC1E248C18E7CF1800F32B3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1E248B18E7CF1800F32B3E /* Images.xcassets */; };
+		DC1E249318E7CF1800F32B3E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1E249218E7CF1800F32B3E /* XCTest.framework */; };
+		DC1E249418E7CF1800F32B3E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1E247318E7CF1800F32B3E /* Cocoa.framework */; };
+		DC1E249C18E7CF1800F32B3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC1E249A18E7CF1800F32B3E /* InfoPlist.strings */; };
+		DC1E249E18E7CF1800F32B3E /* BandLab_SplitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1E249D18E7CF1800F32B3E /* BandLab_SplitterTests.m */; };
+		DC1E24A818E7CFBF00F32B3E /* New Bandlab Icon 120.png in Resources */ = {isa = PBXBuildFile; fileRef = DC1E24A718E7CFBF00F32B3E /* New Bandlab Icon 120.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC1E249518E7CF1800F32B3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC1E246818E7CF1800F32B3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC1E246F18E7CF1800F32B3E;
+			remoteInfo = "BandLab Splitter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5200E23B1A7128400018AEB8 /* lame */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = lame; sourceTree = "<group>"; };
+		529598DF1A72778C003FBA8B /* snd_new */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = snd_new; sourceTree = "<group>"; };
+		529CD7671A9C59F2008B5047 /* New Bandlab Icon 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Bandlab Icon 16.png"; path = "Images.xcassets/AppIcon.appiconset/New Bandlab Icon 16.png"; sourceTree = "<group>"; };
+		529CD7691A9C5AB4008B5047 /* New Bandlab Icon 32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Bandlab Icon 32.png"; path = "Images.xcassets/AppIcon.appiconset/New Bandlab Icon 32.png"; sourceTree = "<group>"; };
+		52A69EFB1A0A54D3005B22B1 /* mydeinterleave */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mydeinterleave; sourceTree = "<group>"; };
+		52C152131A08CBEF0076A8C0 /* sox */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = sox; sourceTree = "<group>"; };
+		6EBA2B861934D1BB00375429 /* libsndfile.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsndfile.1.dylib; path = ../../../../usr/local/lib/libsndfile.1.dylib; sourceTree = "<group>"; };
+		6EBA2B881934D1F800375429 /* libsndfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsndfile.a; path = ../../../../usr/local/lib/libsndfile.a; sourceTree = "<group>"; };
+		DC1E247018E7CF1800F32B3E /* Tracker BND Splitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tracker BND Splitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1E247318E7CF1800F32B3E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DC1E247618E7CF1800F32B3E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DC1E247718E7CF1800F32B3E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DC1E247818E7CF1800F32B3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC1E247B18E7CF1800F32B3E /* Tracker BND Splitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tracker BND Splitter-Info.plist"; sourceTree = "<group>"; };
+		DC1E247D18E7CF1800F32B3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC1E247F18E7CF1800F32B3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC1E248118E7CF1800F32B3E /* Tracker BND Splitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tracker BND Splitter-Prefix.pch"; sourceTree = "<group>"; };
+		DC1E248318E7CF1800F32B3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DC1E248518E7CF1800F32B3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC1E248618E7CF1800F32B3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC1E248918E7CF1800F32B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DC1E248B18E7CF1800F32B3E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC1E249118E7CF1800F32B3E /* Tracker BND SplitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tracker BND SplitterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1E249218E7CF1800F32B3E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DC1E249918E7CF1800F32B3E /* Tracker BND SplitterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tracker BND SplitterTests-Info.plist"; sourceTree = "<group>"; };
+		DC1E249B18E7CF1800F32B3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC1E249D18E7CF1800F32B3E /* BandLab_SplitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BandLab_SplitterTests.m; sourceTree = "<group>"; };
+		DC1E24A718E7CFBF00F32B3E /* New Bandlab Icon 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "New Bandlab Icon 120.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC1E246D18E7CF1800F32B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1E247418E7CF1800F32B3E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1E248E18E7CF1800F32B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1E249418E7CF1800F32B3E /* Cocoa.framework in Frameworks */,
+				DC1E249318E7CF1800F32B3E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC1E246718E7CF1800F32B3E = {
+			isa = PBXGroup;
+			children = (
+				DC1E247918E7CF1800F32B3E /* BandLab Splitter */,
+				DC1E249718E7CF1800F32B3E /* BandLab SplitterTests */,
+				DC1E247218E7CF1800F32B3E /* Frameworks */,
+				DC1E247118E7CF1800F32B3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC1E247118E7CF1800F32B3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E247018E7CF1800F32B3E /* Tracker BND Splitter.app */,
+				DC1E249118E7CF1800F32B3E /* Tracker BND SplitterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC1E247218E7CF1800F32B3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EBA2B881934D1F800375429 /* libsndfile.a */,
+				6EBA2B861934D1BB00375429 /* libsndfile.1.dylib */,
+				DC1E247318E7CF1800F32B3E /* Cocoa.framework */,
+				DC1E249218E7CF1800F32B3E /* XCTest.framework */,
+				DC1E247518E7CF1800F32B3E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC1E247518E7CF1800F32B3E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E247618E7CF1800F32B3E /* AppKit.framework */,
+				DC1E247718E7CF1800F32B3E /* CoreData.framework */,
+				DC1E247818E7CF1800F32B3E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DC1E247918E7CF1800F32B3E /* BandLab Splitter */ = {
+			isa = PBXGroup;
+			children = (
+				529CD7691A9C5AB4008B5047 /* New Bandlab Icon 32.png */,
+				529CD7671A9C59F2008B5047 /* New Bandlab Icon 16.png */,
+				529598DF1A72778C003FBA8B /* snd_new */,
+				5200E23B1A7128400018AEB8 /* lame */,
+				52A69EFB1A0A54D3005B22B1 /* mydeinterleave */,
+				52C152131A08CBEF0076A8C0 /* sox */,
+				DC1E24A718E7CFBF00F32B3E /* New Bandlab Icon 120.png */,
+				DC1E248518E7CF1800F32B3E /* AppDelegate.h */,
+				DC1E248618E7CF1800F32B3E /* AppDelegate.m */,
+				DC1E248818E7CF1800F32B3E /* MainMenu.xib */,
+				DC1E248B18E7CF1800F32B3E /* Images.xcassets */,
+				DC1E247A18E7CF1800F32B3E /* Supporting Files */,
+			);
+			path = "BandLab Splitter";
+			sourceTree = "<group>";
+		};
+		DC1E247A18E7CF1800F32B3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E247B18E7CF1800F32B3E /* Tracker BND Splitter-Info.plist */,
+				DC1E247C18E7CF1800F32B3E /* InfoPlist.strings */,
+				DC1E247F18E7CF1800F32B3E /* main.m */,
+				DC1E248118E7CF1800F32B3E /* Tracker BND Splitter-Prefix.pch */,
+				DC1E248218E7CF1800F32B3E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC1E249718E7CF1800F32B3E /* BandLab SplitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E249D18E7CF1800F32B3E /* BandLab_SplitterTests.m */,
+				DC1E249818E7CF1800F32B3E /* Supporting Files */,
+			);
+			path = "BandLab SplitterTests";
+			sourceTree = "<group>";
+		};
+		DC1E249818E7CF1800F32B3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E249918E7CF1800F32B3E /* Tracker BND SplitterTests-Info.plist */,
+				DC1E249A18E7CF1800F32B3E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC1E246F18E7CF1800F32B3E /* Tracker BND Splitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1E24A118E7CF1800F32B3E /* Build configuration list for PBXNativeTarget "Tracker BND Splitter" */;
+			buildPhases = (
+				DC1E246C18E7CF1800F32B3E /* Sources */,
+				DC1E246D18E7CF1800F32B3E /* Frameworks */,
+				DC1E246E18E7CF1800F32B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tracker BND Splitter";
+			productName = "BandLab Splitter";
+			productReference = DC1E247018E7CF1800F32B3E /* Tracker BND Splitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC1E249018E7CF1800F32B3E /* Tracker BND SplitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1E24A418E7CF1800F32B3E /* Build configuration list for PBXNativeTarget "Tracker BND SplitterTests" */;
+			buildPhases = (
+				DC1E248D18E7CF1800F32B3E /* Sources */,
+				DC1E248E18E7CF1800F32B3E /* Frameworks */,
+				DC1E248F18E7CF1800F32B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC1E249618E7CF1800F32B3E /* PBXTargetDependency */,
+			);
+			name = "Tracker BND SplitterTests";
+			productName = "BandLab SplitterTests";
+			productReference = DC1E249118E7CF1800F32B3E /* Tracker BND SplitterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC1E246818E7CF1800F32B3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Simon Edelhaus";
+				TargetAttributes = {
+					DC1E249018E7CF1800F32B3E = {
+						TestTargetID = DC1E246F18E7CF1800F32B3E;
+					};
+				};
+			};
+			buildConfigurationList = DC1E246B18E7CF1800F32B3E /* Build configuration list for PBXProject "Tracker BND Splitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC1E246718E7CF1800F32B3E;
+			productRefGroup = DC1E247118E7CF1800F32B3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC1E246F18E7CF1800F32B3E /* Tracker BND Splitter */,
+				DC1E249018E7CF1800F32B3E /* Tracker BND SplitterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC1E246E18E7CF1800F32B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1E247E18E7CF1800F32B3E /* InfoPlist.strings in Resources */,
+				DC1E24A818E7CFBF00F32B3E /* New Bandlab Icon 120.png in Resources */,
+				DC1E248C18E7CF1800F32B3E /* Images.xcassets in Resources */,
+				529CD7681A9C59F2008B5047 /* New Bandlab Icon 16.png in Resources */,
+				52A69EFC1A0A54D3005B22B1 /* mydeinterleave in Resources */,
+				DC1E248418E7CF1800F32B3E /* Credits.rtf in Resources */,
+				52C152141A08CBEF0076A8C0 /* sox in Resources */,
+				5200E23C1A7128400018AEB8 /* lame in Resources */,
+				DC1E248A18E7CF1800F32B3E /* MainMenu.xib in Resources */,
+				529598E01A72778C003FBA8B /* snd_new in Resources */,
+				529CD76A1A9C5AB4008B5047 /* New Bandlab Icon 32.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1E248F18E7CF1800F32B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1E249C18E7CF1800F32B3E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC1E246C18E7CF1800F32B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1E248718E7CF1800F32B3E /* AppDelegate.m in Sources */,
+				DC1E248018E7CF1800F32B3E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1E248D18E7CF1800F32B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1E249E18E7CF1800F32B3E /* BandLab_SplitterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC1E249618E7CF1800F32B3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC1E246F18E7CF1800F32B3E /* Tracker BND Splitter */;
+			targetProxy = DC1E249518E7CF1800F32B3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC1E247C18E7CF1800F32B3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1E247D18E7CF1800F32B3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC1E248218E7CF1800F32B3E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1E248318E7CF1800F32B3E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DC1E248818E7CF1800F32B3E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1E248918E7CF1800F32B3E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DC1E249A18E7CF1800F32B3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1E249B18E7CF1800F32B3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC1E249F18E7CF1800F32B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DC1E24A018E7CF1800F32B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				"MACOSX_DEPLOYMENT_TARGET[sdk=macosx*]" = "";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DC1E24A218E7CF1800F32B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BandLab Splitter/Tracker BND Splitter-Prefix.pch";
+				INFOPLIST_FILE = "BandLab Splitter/Tracker BND Splitter-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "Tracker BND Splitter";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC1E24A318E7CF1800F32B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BandLab Splitter/Tracker BND Splitter-Prefix.pch";
+				INFOPLIST_FILE = "BandLab Splitter/Tracker BND Splitter-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				"MACOSX_DEPLOYMENT_TARGET[sdk=macosx*]" = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "Tracker BND Splitter";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC1E24A518E7CF1800F32B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BandLab Splitter.app/Contents/MacOS/BandLab Splitter";
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BandLab Splitter/BandLab Splitter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BandLab SplitterTests/Tracker BND SplitterTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "Tracker BND SplitterTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DC1E24A618E7CF1800F32B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BandLab Splitter.app/Contents/MacOS/BandLab Splitter";
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BandLab Splitter/BandLab Splitter-Prefix.pch";
+				INFOPLIST_FILE = "BandLab SplitterTests/Tracker BND SplitterTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "Tracker BND SplitterTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC1E246B18E7CF1800F32B3E /* Build configuration list for PBXProject "Tracker BND Splitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1E249F18E7CF1800F32B3E /* Debug */,
+				DC1E24A018E7CF1800F32B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1E24A118E7CF1800F32B3E /* Build configuration list for PBXNativeTarget "Tracker BND Splitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1E24A218E7CF1800F32B3E /* Debug */,
+				DC1E24A318E7CF1800F32B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1E24A418E7CF1800F32B3E /* Build configuration list for PBXNativeTarget "Tracker BND SplitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1E24A518E7CF1800F32B3E /* Debug */,
+				DC1E24A618E7CF1800F32B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC1E246818E7CF1800F32B3E /* Project object */;
+}
