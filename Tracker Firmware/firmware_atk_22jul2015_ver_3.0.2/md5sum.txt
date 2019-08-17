@@ -1,0 +1,13 @@
+c81e728d9d4c2f636f067f89cc14862c  bl_version
+cf373a6e5b52d0d8613a95055caaae28  flashcp
+0188ad484aabed1ad4e66c6f27232004  flashmon
+d543e8e5346a50f31aaf84080fd4a908  fw_env.config
+e4aead068e83ddb93be26acd89284abd  fw_setenv
+dbfde326f6af0a19d286209524f4d018  fw_uboot_env.config
+528f36d6ad0e5b48fad2a8419cd85e1a  lcdc
+4aee1f3177dd2a28832dafd7e7cf46e8  liblcd.so
+5901c053fbcdecaba0cb03fd5c3c2b92  rootfs.cramfs
+bd4a1e60f27d2bfe3603894f5865f66e  u-boot.bin
+bb9a15d3280c0354e02926f7ed65513c  uImage
+b482136fc29f69c89ba7aa4f3e78a99d  upgrade.sh
+e4338b064f76fa094a4e82bcf0040fe0  version
