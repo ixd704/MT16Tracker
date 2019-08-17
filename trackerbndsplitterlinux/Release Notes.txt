@@ -1,0 +1,35 @@
+--------------------------------------JAMHUB Tracker MT16--------------------------------------------------------------
+Release Notes for converter utility hosted on Amazon cloud.
+Version:1.1
+
+The converter utility gives you Re-sampling,Splitting and Mp3 conversion of
+Recorded file on JAMHUB Tracker MT16
+
+Features:-
+1) Re-sampling of audio file for sampling rate=44.1k and sampling rate=96k
+2) Splitting of audio file(after splitting audio file(s) will be in .wav
+format)
+3) Mp3 conversion for wav file(s)
+4) Multiple part of a file can be process (file more than 2 GB will split in
+parts)
+5) Extension support for .trk .cmb .bnd audio files
+5) Saving output in separate folder (user can choose destination path and folder name)
+6) Deleting temporary generating files
+
+Newfeatures added:
+1) Resampling for .bnd file with wav header
+2) With support for all previous version of Tracker
+
+External dependencies:-
+1) sox-14.4.1
+2) libsndfile-1.0.25 (Modified to suit converter utility. Modified the file
+sndfile-deinterleave.c)
+3) lame-3.99.5
+
+Usage:-
+$converter <Source path with file name> -o <Destination path with folder
+name>
+
+Release date:20 Mar 2015.
+
+-----------------------------------------------------------------------------------------------------------------------
