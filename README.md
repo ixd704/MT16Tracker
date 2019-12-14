@@ -15,7 +15,6 @@ You will require sndlib and GTK3 to be installed on Linux to compile the code.  
 Some info on the MT16Tracker:
 - it runs a telnet server with the user account being set to user and the password also set to user.
 - if you unzip the ROM to a directory called firmware_26feb2014_sd on the sd card, it will load the firmware on boot if you place the autostart.sh script in the root directory of the SD Card.  The init script will check for the autostart.sh file during boot.  Reboot the Tracker and you will have the ROM version installed.   Version 1.0 has no root password, so easy to su to root account.  
-- there is a shadow file that can be copied to the file system during boot with autostart.sh.  It removed the root password so you can telnet in to the device.
 
 ***NOTE*** firmware_26feb2014_sd is version 1.0.  
 ***NOTE*** I managed to brick a device trying to rebuild the rootfs.cramfs file with a new shadow file.   I expect u-boot is required to make changes so that the image files fit into the file system correctly.  Hopefully a build source tree will show up soon.
