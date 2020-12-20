@@ -10,6 +10,15 @@ To date I have:
 - the schematic for the JamHub remote that will give you the cable connections.
 - there are a number of MT16 Trackers available for for a small fee (I am currently unsure as to what the fee is) and shipping costs for those developers wishing to have a MT16 Tracker to work with.  You will need to contact Steve to request one be sent to you.  
 
+There is a virtual machine image available here that will allow you to compile your code to run on it:
+https://drive.google.com/file/d/1CSSgpR9fipYMpJrM-eVudqqgNHH85TV1/view?usp=sharing
+
+A zip file with firmware 3.0.2 is available from here:
+https://drive.google.com/file/d/1YM4f6Cs4oUiwHL6A9qKIXOBQm_qkc59I/view?usp=sharing
+
+A video of me updating the firmware is available here:
+https://drive.google.com/file/d/1evIlG7jG7QVwnYEe8d1xFvYSkvIqO_a6/view?usp=sharing
+
 You will require sndlib and GTK3 to be installed on Linux to compile the code.   Anyone wishing to contribute can join the effort.
 
 Some info on the MT16Tracker:
