@@ -16,7 +16,7 @@ https://drive.google.com/file/d/1CSSgpR9fipYMpJrM-eVudqqgNHH85TV1/view?usp=shari
 A zip file with firmware 3.0.2 is available from here:
 https://drive.google.com/file/d/1YM4f6Cs4oUiwHL6A9qKIXOBQm_qkc59I/view?usp=sharing
 
-A video of me updating the firmware is available here:
+A bad video (rushed and not yet edited) of me updating the firmware is available here:
 https://drive.google.com/file/d/1evIlG7jG7QVwnYEe8d1xFvYSkvIqO_a6/view?usp=sharing
 
 You will require sndlib and GTK3 to be installed on Linux to compile the code.   Anyone wishing to contribute can join the effort.
