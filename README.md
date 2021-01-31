@@ -8,7 +8,7 @@ To date I have:
 - a ROM image which can be disected by those interested in seeing how it works.
 - the Linux code I created based on the Windows version of the product being run through IDA Pro which includes a modified version of sndlib-deinterleave by Erik de Castro Lopo and his license to use it.
 - the schematic for the JamHub remote that will give you the cable connections.
-- there are a number of MT16 Trackers available for for a small fee (I am currently unsure as to what the fee is) and shipping costs for those developers wishing to have a MT16 Tracker to work with.  You will need to contact Steve to request one be sent to you.  
+- there are a number of MT16 Trackers available for for a small fee (I am currently unsure as to what the fee is) and shipping costs for those developers wishing to have a MT16 Tracker to work with.  You will need to contact Steve to request one be sent to you.  He would prefer that the units he still has sitting on the shelf go to people wanting to tinker than go into a ground fill.  It is a pretty good deal.  You get a recording unit that can record 16 tracks at a time and also has a load of other features on the chipset.
 
 There is a virtual machine image available here that will allow you to compile your code to run on it:
 https://drive.google.com/file/d/1CSSgpR9fipYMpJrM-eVudqqgNHH85TV1/view?usp=sharing
@@ -22,8 +22,8 @@ https://drive.google.com/file/d/1D8XaW71mvEOWE1MgDB10yFlL2UnbGrcq/view?usp=shari
 You will require sndlib and GTK3 to be installed on Linux to compile the code.   Anyone wishing to contribute can join the effort.
 
 Some info on the MT16Tracker:
-- it runs a telnet server with the user account being set to user and the password also set to user.
-- if you unzip the ROM to a directory called firmware_26feb2014_sd on the sd card, it will load the firmware on boot if you place the autostart.sh script in the root directory of the SD Card.  The init script will check for the autostart.sh file during boot.  Reboot the Tracker and you will have the ROM version installed.   Version 1.0 has no root password, so easy to su to root account.  
+- it runs a telnet server with the user account being set to user and the password also set to user.  You can su to root or login with root and P0o9i8u7.
+ 
 
 ***NOTE*** firmware_26feb2014_sd is version 1.0.  
-***NOTE*** I managed to brick a device trying to rebuild the rootfs.cramfs file with a new shadow file.   I expect u-boot is required to make changes so that the image files fit into the file system correctly.  Hopefully a build source tree will show up soon.
+***NOTE*** I managed to brick a device trying to rebuild the rootfs.cramfs file with a new shadow file.  So compiling new firmware is required for persistant changes.  Although, it is possible to plug in a USB drive and then use start shell script to mount your own directories and software for use.  So a VST plugin is possible to create for it.  For $50 I doubt you will be able to find a 16 track recorder anywhere else...
