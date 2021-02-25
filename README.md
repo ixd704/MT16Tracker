@@ -12,6 +12,7 @@ To date I have:
 
 There is a virtual machine image available here that will allow you to compile your code to run on it:
 https://drive.google.com/file/d/1CSSgpR9fipYMpJrM-eVudqqgNHH85TV1/view?usp=sharing
+I have set the password to P@ssw0rd1.  Just cd to ltib and then build what you want with ./ltib -m scbuild -p menu as an example of building the menu program.
 
 A zip file with firmware 3.0.2 is available from here:
 https://drive.google.com/file/d/1YM4f6Cs4oUiwHL6A9qKIXOBQm_qkc59I/view?usp=sharing
