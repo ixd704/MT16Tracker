@@ -11,7 +11,7 @@ To date I have:
 - there are a number of MT16 Trackers available for for a small fee (I am currently unsure as to what the fee is) and shipping costs for those developers wishing to have a MT16 Tracker to work with.  You will need to contact Steve to request one be sent to you.  He would prefer that the units he still has sitting on the shelf go to people wanting to tinker than go into a ground fill.  It is a pretty good deal.  You get a recording unit that can record 16 tracks at a time and also has a load of other features on the chipset.
 
 There is a virtual machine image available here that will allow you to compile your code to run on it:
-https://drive.google.com/file/d/1CSSgpR9fipYMpJrM-eVudqqgNHH85TV1/view?usp=sharing
+https://mega.nz/file/nYwzEAbC#bXCHMGGdTuczqBc49LXcGFnkZ_bV5l5mkDCCcxLkXP8
 I have set the password to P@ssw0rd1.  Just cd to ltib and then build what you want with ./ltib -m scbuild -p menu as an example of building the menu program.
 
 A zip file with firmware 3.0.2 is available from here:
