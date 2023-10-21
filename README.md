@@ -15,7 +15,7 @@ https://mega.nz/file/nYwzEAbC#bXCHMGGdTuczqBc49LXcGFnkZ_bV5l5mkDCCcxLkXP8
 I have set the password to P@ssw0rd1.  Just cd to ltib and then build what you want with ./ltib -m scbuild -p menu as an example of building the menu program.
 
 A zip file with firmware 3.0.2 is available from here:
-https://drive.google.com/file/d/1YM4f6Cs4oUiwHL6A9qKIXOBQm_qkc59I/view?usp=sharing
+https://drive.google.com/file/d/1Lm_nwLn0YRyLtSZ8Ez4GQEZlEfac7Z5K/view?usp=share_link
 
 A bad video (rushed) of me updating the firmware is available here:
 https://drive.google.com/file/d/1D8XaW71mvEOWE1MgDB10yFlL2UnbGrcq/view?usp=sharing
